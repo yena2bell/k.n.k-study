@@ -17,6 +17,8 @@ int d, i1,i2,i3,i4,i5,j1,j2,j3,j4,j5,
    total = first_sum*3 + second_sum;
 
    printf("Check digit: %d\n",9-((total-1)%10));
+//exercise 8
+   printf("Check digit: %d\n",(10-(total%10))%10);
 
    return 0;
 }
